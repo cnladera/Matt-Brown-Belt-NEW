@@ -12,6 +12,7 @@ public class Laser : MonoBehaviour
     Vector3 endPoint;
     public UnityEvent OnHitPlayer;
 
+
     public static bool playerDeath = false;
 
     void Awake()
@@ -21,6 +22,7 @@ public class Laser : MonoBehaviour
     }
     private void Start()
     {
+
         GameObject codey = GameObject.Find("Codey");
         if (codey)
         {
@@ -52,11 +54,13 @@ public class Laser : MonoBehaviour
             {
                 playerDeath = true;
                 OnHitPlayer.Invoke();
-                //game.PlayerHit();
+                game.PlayerHit();
             }
         }
 
         //Render the line
         lineRenderer.SetPosition(1, endPoint);
+
+        
     }
 }

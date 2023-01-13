@@ -45,8 +45,8 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 677, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 678, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
   controlID: 65
 --- !u!114 &3
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 279
     height: 635
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -433,20 +433,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\CodeNinja\OneDrive\Documents\GitHub\Matt-Brown-Belt-NEW\ME-Doctor-Worm
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 71}
-    m_SelectedIDs: d83a0000
-    m_LastClickedID: 15064
-    m_ExpandedIDs: 00000000c23a000000ca9a3b
+    m_SelectedIDs: fa3a0000
+    m_LastClickedID: 15098
+    m_ExpandedIDs: 00000000ea3a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -474,7 +474,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c23a0000
+    m_ExpandedIDs: 00000000ea3a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -597,9 +597,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f02c0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 1cf6ffff64fbffff
+      m_SelectedIDs: 4a38ffff
+      m_LastClickedID: -51126
+      m_ExpandedIDs: f244fffffc44ffff3845fffff845fffffc51ffff0652ffff2053ffff425affff4c5affff485bffff9a5effffa45effffbe5fffffcc62ffffd662ffffd263ffff2067ffff2a67ffff4468ffffd08effffda8effffd88fffff3494ffff3e94ffff5895ffff7a98ffff8498ffff8299ffffee9cfffff89cffff129effff6aa8ffff74a8ffff72a9ffffe8acfffff2acffff0caeffffeeb1ffff04b5ffff0eb5ffff0cb6ffffb8baffffc2baffffc4baffff22beffff2cbeffff2abfffff56c6ffff60c6ffff7ac7ffff64cbffffccdfffffd6dfffff90f6ffff64fbffff4c3c00006c3c0000823c000012850000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -659,9 +659,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.6840849, y: -13.666113, z: 0.64466}
+    m_Target: {x: -5.5607605, y: -38.968266, z: 5.9044666}
     speed: 2
-    m_Value: {x: 1.6840849, y: -13.666113, z: 0.64466}
+    m_Value: {x: -5.5607605, y: -38.968266, z: 5.9044666}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -707,13 +707,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.5125363, y: 0.111898184, z: -0.06757961, w: -0.84865695}
+    m_Target: {x: -0.60427725, y: 0.039870072, z: -0.030298192, w: -0.7952009}
     speed: 2
-    m_Value: {x: -0.5125362, y: 0.11189817, z: -0.067579605, w: -0.84865683}
+    m_Value: {x: -0.60427636, y: 0.039870016, z: -0.03029815, w: -0.79519975}
   m_Size:
-    m_Target: 17.086994
+    m_Target: 33.456882
     speed: 2
-    m_Value: 17.086994
+    m_Value: 33.456882
   m_Ortho:
     m_Target: 0
     speed: 2
