@@ -25,6 +25,13 @@ public class EnemyMovement : MonoBehaviour
             Vector2 jumpForce = new Vector2(xForce * xDirection, yForce);
             enemyRigidBody.AddForce(jumpForce);
         }
+
+        if (collision.gameObject.tag == "Enemy")
+        {
+            Vector2 jumpForce = new Vector2(xForce * -xDirection, yForce);
+            enemyRigidBody.AddForce(jumpForce);
+        }
+
     }
 
     // Update is called once per frame
@@ -54,5 +61,11 @@ public class EnemyMovement : MonoBehaviour
             xDirection = -1;
             enemyRigidBody.AddForce(Vector2.left * xForce);
         }
+
+        if (transform.position.y >= 4.5)
+        {
+            enemyRigidBody.AddForce(Vector2.down * yForce);
+        }
+
     }
 }
