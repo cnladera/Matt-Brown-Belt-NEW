@@ -114,6 +114,11 @@ public class PlayerControls : MonoBehaviour
         {
             roboManIsOnTheGround = true;
         }
+
+        if (collision.collider.tag == "Enemy")
+        {
+            roboManRigidBody.AddForce(jumpForce, ForceMode2D.Impulse);
+        }
     }
 
     // if RoboMan is not colliding with the Ground game object in the scene,

@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 124
+  controlID: 59
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -592,6 +592,7 @@ MonoBehaviour:
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: -338813392906766158, guid: 465ee300a38fbab4b889020dab9ee281, type: 2}
+    - {fileID: 5382487000331337335, guid: 96601889e460bf34882344b6acdf4c2f, type: 2}
     m_ValueSerializationHelper:
     - e00: 1
       e01: 0
@@ -609,11 +610,27 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 465ee300a38fbab4b889020dab9ee281,
+  m_AnimatorController: {fileID: 9100000, guid: 96601889e460bf34882344b6acdf4c2f,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: -338813392906766158, guid: 465ee300a38fbab4b889020dab9ee281,
+  - m_Target: {fileID: 5382487000331337335, guid: 96601889e460bf34882344b6acdf4c2f,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -681,7 +698,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 18494
+  m_LastSelectedObjectID: 14206
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -856,4 +873,4 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 100

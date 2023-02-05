@@ -31,7 +31,13 @@ public class EnemyMovement : MonoBehaviour
             Vector2 jumpForce = new Vector2(xForce * -xDirection, yForce);
             enemyRigidBody.AddForce(jumpForce);
         }
-
+        /*
+        if (collision.gameObject.tag == "Player")
+        {
+            Vector2 bounceForce = new Vector2(xForce * xDirection * 3, yForce * -2);
+            collision.otherRigidbody.AddForce(bounceForce);
+        }
+        */
     }
 
     // Update is called once per frame
