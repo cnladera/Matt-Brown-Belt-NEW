@@ -31,11 +31,12 @@ public class EnemyControls : MonoBehaviour
     {
         if (!isFollowingTarget)
         {
-            return;
+            rigidbodyEnemy.isKinematic = true;
         }
 
         if (Vector3.Distance(transform.position, target.position) >= attackingDistance)
         {
+            rigidbodyEnemy.isKinematic = false;
             direction = target.position - transform.position;
             direction.y = 0;
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(direction), 100);
@@ -49,6 +50,7 @@ public class EnemyControls : MonoBehaviour
         } 
         else if (Vector3.Distance(transform.position, target.position) <= attackingDistance)
         {
+            rigidbodyEnemy.isKinematic = false;
             rigidbodyEnemy.velocity = Vector3.zero;
             animatorEnemy.SetBool("Walk", false);
             isFollowingTarget = false;
@@ -67,7 +69,8 @@ public class EnemyControls : MonoBehaviour
 
         if (currentAttackingTime > maxAttackingTime)
         {
-            EnemyAttack(Random.Range(1,4));
+            EnemyAttack(0);
+            //EnemyAttack(Random.Range(0, 6)); 
             currentAttackingTime = 0f;
         }
 
@@ -80,20 +83,43 @@ public class EnemyControls : MonoBehaviour
 
     public void EnemyAttack(int attack)
     {
-        if (attack == 1)
+        if (attack == 0)
         {
             animatorEnemy.SetTrigger("Attack1");
+            Debug.Log("Attack1");
+        }
+
+        /*
+        if (attack == 1)
+        {
+            animatorEnemy.SetTrigger("Attack2");
+            Debug.Log("Attack2");
         }
 
         if (attack == 2)
         {
-            animatorEnemy.SetTrigger("Attack2");
+            animatorEnemy.SetTrigger("Attack3");
+            Debug.Log("Attack3");
         }
 
         if (attack == 3)
         {
-            animatorEnemy.SetTrigger("Attack3");
+            animatorEnemy.SetTrigger("Attack4");
+            Debug.Log("Attack4");
         }
+
+        if (attack == 4)
+        {
+            animatorEnemy.SetTrigger("Attack5");
+            Debug.Log("Attack5");
+        }
+
+        if (attack == 5)
+        {
+            animatorEnemy.SetTrigger("Attack6");
+            Debug.Log("Attack6");
+        }
+        */
     }
 
     // Update is called once per frame
