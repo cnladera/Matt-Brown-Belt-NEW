@@ -49,6 +49,7 @@ public class PowerupController : MonoBehaviour
             |**** Add your code below ****|
             \*****************************/
 
+            Instantiate(powerup, transform.position, transform.rotation);
 
             /*****************************\
             |**** Add your code above ****|

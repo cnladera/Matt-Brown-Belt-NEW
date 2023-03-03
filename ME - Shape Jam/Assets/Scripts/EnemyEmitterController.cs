@@ -37,7 +37,10 @@ public class EnemyEmitterController : MonoBehaviour
             |**** Add your code below ****|
             \*****************************/
 
+            for (int i = 0; i < playerController.currentLevel; i++)
+            {
 
+            }
 
             /*****************************\
             |**** Add your code above ****|
